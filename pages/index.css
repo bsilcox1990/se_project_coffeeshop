@@ -141,8 +141,8 @@
   line-height: 30px;
 }
 
-iframe {
+.recipes__iframe {
   height: 273px;
   width: 480px;
-  border: none;
+  border: none #838383;
 }

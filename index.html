@@ -110,7 +110,85 @@
 
         <!--end of the recipes section-->
 
-        <section class="reservation" id="reservation"></section>
+        <section class="reservation" id="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name" class="form__label"
+                >Name *
+                <input
+                  id="name"
+                  name="name"
+                  placeholder="Name Surname"
+                  type="text"
+                  class="form__input"
+                  required
+                />
+              </label>
+
+              <!--first label-->
+
+              <label for="guests" class="form__label"
+                >Number of guests *
+                <input
+                  type="number"
+                  name="guests"
+                  id="guests"
+                  min="0"
+                  max="8"
+                  class="form__input"
+                  placeholder="1-8"
+                  required
+                />
+              </label>
+
+              <!--second label-->
+
+              <label for="datetime-local" class="form__label"
+                >Date & time *
+                <input
+                  id="datetime-local"
+                  name="datetime-local"
+                  type="datetime-local"
+                  class="form__input"
+                  required
+                />
+              </label>
+
+              <!-- third label-->
+
+              <label for="email" class="form__label"
+                >Your email *
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  class="form__input"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+
+              <!-- fourth label-->
+            </fieldset>
+
+            <button type="submit" class="form__button">Book a table</button>
+
+            <label for="terms" class="form__label form__label_type_checkbox">
+              <input
+                id="terms"
+                name="terms"
+                class="form__checkbox"
+                type="checkbox"
+                required
+              />
+              I agree with the terms of use</label
+            >
+          </form>
+        </section>
+
+        <!--end of the reservation section-->
+
         <section class="menu" id="menu"></section>
         <section class="about" id="about"></section>
       </main>

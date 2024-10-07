@@ -4,14 +4,14 @@
 }
 
 .card__title {
-  margin: 0;
-  padding-bottom: 32px;
+  margin: 0 0 32px;
   font-weight: bold;
   font-size: 20px;
   line-height: 30px;
 }
 
 .card__list {
+  margin: 0;
   padding: 0;
 }
 

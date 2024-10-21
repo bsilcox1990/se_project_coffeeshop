@@ -26,3 +26,6 @@ I was unable to apply the different styles to the checkbox and would like to wor
 I would like to add more animations because they really bring the webpage to life.
 More hover effects would make the user have a better interactive experience. 
 
+## Github pages link
+
+https://bsilcox1990.github.io/se_project_coffeeshop/
